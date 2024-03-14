@@ -1,0 +1,68 @@
+/* src/Practitioner.css */
+.practitioner-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .logo-container img {
+    max-width: 100px; /* Ajusta el ancho máximo del logo */
+  }
+  
+  .info-container {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-container button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .practitioner-info {
+    margin-top: 20px;
+  }
+  
+  .practitioner-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .practitioner-info pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 300px;
+  }
+  
+  .practitioner-info p {
+    margin-bottom: 5px;
+  }
+
+  .logo-container img {
+    max-width: 100px; /* Ajusta el ancho máximo del logo */
+  }

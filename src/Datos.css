@@ -1,0 +1,41 @@
+/* Datos.css */
+.datos-container {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.datos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.dato {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dato h3 {
+  margin-top: 0;
+}
+
+.dato pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
